@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"name": "Lacoste",
+		"category": "Shoes",
+		"description": "Description of item",
+		"price": 109.99,
+		"imgUrl": "/imgs/shoes-1.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Nike",
+		"category": "Shoes",
+		"description": "Description of item",
+		"price": 119.99,
+		"imgUrl": "/imgs/shoes-2.jpg"
+	},
+	{
+		"id": 3,
+		"name": "New Balance",
+		"category": "Shoes",
+		"description": "Description of item",
+		"price": 99.99,
+		"imgUrl": "/imgs/shoes-3.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Vans",
+		"category": "Shoes",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/shoes-4.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Vans",
+		"category": "Shoes",
+		"description": "Description of item",
+		"price": 129.99,
+		"imgUrl": "/imgs/shoes-5.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Nike",
+		"category": "Jacket",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/jacket-1.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Nike",
+		"category": "Jacket",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/jacket-2.jpg"
+	},
+	{
+		"id": 8,
+		"name": "J.Crew",
+		"category": "Jacket",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/jacket-3.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Adidas",
+		"category": "Jacket",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/jacket-4.jpg"
+	},
+	{
+		"id": 10,
+		"name": "The North Face",
+		"category": "Jacket",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/jacket-5.jpg"
+	},
+	{
+		"id": 11,
+		"name": "Nike",
+		"category": "T-shirt",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/tshirt-1.jpg"
+	},
+	{
+		"id": 12,
+		"name": "The North Face",
+		"category": "T-shirt",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/tshirt-2.jpg"
+	},
+	{
+		"id": 13,
+		"name": "Adidas",
+		"category": "T-shirt",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/tshirt-3.jpg"
+	},
+	{
+		"id": 14,
+		"name": "Puma",
+		"category": "T-shirt",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/tshirt-4.jpg"
+	},
+	{
+		"id": 15,
+		"name": "Oakley",
+		"category": "T-shirt",
+		"description": "Description of item",
+		"price": 159.99,
+		"imgUrl": "/imgs/tshirt-5.jpg"
+	}
+]

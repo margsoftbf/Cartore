@@ -6,9 +6,11 @@ export const Navbar = () => {
 	const navLinkStyles = ({ isActive }) => {
 		return {
 			color: isActive ? '#fff' : '#000',
-			backgroundColor: isActive ? '#0BA6FF' : '#C0C0C0',
+			backgroundColor: isActive ? '#ce5e40' : '',
 		};
 	};
+
+	
 
 	return (
 		<div className={`${style.navbar}`}>

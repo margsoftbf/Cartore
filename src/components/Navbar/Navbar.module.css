@@ -12,17 +12,18 @@
 	height: 100%;
 	margin: 0 auto;
 	align-items: center;
-	padding: 1em;
 }
 .navLogos {
 	position: relative;
 	display: flex;
 	align-items: center;
+	margin-left: 0.5em;
 }
 .navLogos span {
 	color: #ce5e40;
 	position: relative;
-	font-size: 1.2rem;
+	font-family: 'Rubik', sans-serif;
+	font-size: 1.4rem;
 	font-weight: 600;
 	margin-left: 0.3em;
 	letter-spacing: 0.05rem;
@@ -48,18 +49,33 @@
 	color: #fff;
 }
 
+.active {
+	color: red;
+}
+.activeLink::before {
+	content: '';
+	position: absolute;
+	bottom: -0.75rem;
+	left: 45%;
+	width: 0.3rem;
+	height: 0.3rem;
+	background-color: hsl(152, 75%, 60%);
+	border-radius: 50%;
+}
+
 .navCart {
 	position: relative;
 }
 
 .btn {
 	position: relative;
-	background-color: #0ba6ff;
+	background-color: #ce5e40;
 	width: 2.5rem;
 	height: 2.5rem;
 	border-radius: 25%;
 	border: none;
 	transition: background-color 0.3s;
+	margin-right: 0.5em;
 }
 .btn svg {
 	display: flex;
@@ -70,14 +86,14 @@
 }
 
 .btn:hover {
-	background-color: #0689d4;
+	background-color: #7e3824;
 }
 
 .btnItems {
 	position: absolute;
 	display: flex;
 	justify-content: center;
-	background-color: red;
+	background-color: rgb(15, 120, 128);
 	border-radius: 50%;
 	color: #fff;
 	font-size: 0.8rem;
