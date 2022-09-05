@@ -39,6 +39,7 @@
 	border-bottom-right-radius: 10px;
 	left: 0;
 	top: 10px;
+	z-index: 25;
 }
 
 .cardTitleBox {
@@ -112,4 +113,3 @@
 	font-size: 1.2rem;
 	font-weight: bold;
 }
-

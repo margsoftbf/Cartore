@@ -3,3 +3,54 @@
 	height: 100%;
 	margin: 0 auto;
 }
+
+.storeTitle {
+	font-family: 'Rubik', sans-serif;
+	position: relative;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 10px;
+	width: fit-content;
+}
+
+.storeTitle::after {
+	position: absolute;
+	content: '';
+	bottom: -3px;
+	left: 0;
+	width: calc(100% + 15px);
+	height: 3px;
+	background-color: #ce5e40;
+}
+
+.storeBoxes {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: space-between; */
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.storeBox {
+	width: 100%;
+	max-width: 250px;
+	margin: 0 0.2em;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+	.storeBox {
+		max-width: 320px;
+	}
+}
+@media (min-width: 992px) {
+	.storeBox {
+		max-width: 280px;
+	}
+
+	.storeBoxes {
+		justify-content: space-between;
+	}
+}
