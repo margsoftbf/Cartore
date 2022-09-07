@@ -1,5 +1,24 @@
 .Container {
 	max-width: 1200px;
-	height: 100%;
+	height: 100vh;
 	margin: 0 auto;
+}
+
+.Title {
+	font-family: 'Rubik', sans-serif;
+	position: relative;
+	font-size: 2rem;
+	font-weight: bold;
+	margin-top: 10px;
+	width: fit-content;
+}
+
+.Title::after {
+	position: absolute;
+	content: '';
+	bottom: -3px;
+	left: 0;
+	width: calc(100% + 15px);
+	height: 3px;
+	background-color: #ce5e40;
 }

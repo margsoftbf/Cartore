@@ -1,5 +1,6 @@
 import style from './StoreItem.module.css';
 import { formatCurrency } from '../../utilities/formatCurrency';
+import { useShoppingCart } from '../../context/ShoppingCartContext';
 
 type StoreItemProps = {
 	id: number;
@@ -18,7 +19,13 @@ export function StoreItem({
 	price,
 	imgUrl,
 }: StoreItemProps) {
-	const quantity = 0;
+	const {
+		getItemQuantity,
+		increaseCartQuantity,
+		decreaseCartQuantity,
+		removeFromCart,
+	} = useShoppingCart();
+	const quantity = getItemQuantity(id);
 	return (
 		<div className={`${style.cardBox}`}>
 			<div className={`${style.cardUpper}`}>
@@ -34,19 +41,36 @@ export function StoreItem({
 				</div>
 				<div className={`${style.buttonBox}`}>
 					{quantity === 0 ? (
-						<button className={`${style.btnAddToCart} ${style.btn}`}>
+						<button
+							className={`${style.btnAddToCart} ${style.btn}`}
+							onClick={() => increaseCartQuantity(id)}
+						>
 							Add To Cart
 						</button>
 					) : (
 						<div className={`${style.removeBox}`}>
 							<div className={`${style.removeBoxBtns}`}>
-								<button className={`${style.btnIncrease} ${style.btnChange}`}>+</button>
+								<button
+									className={`${style.btnIncrease} ${style.btnChange}`}
+									onClick={() => increaseCartQuantity(id)}
+								>
+									+
+								</button>
 								<div className={`${style.cartValue}`}>
-									<span className={`${style.cartQuantity}`}>{quantity}</span> in cart
+									<span className={`${style.cartQuantity}`}>{quantity}</span> in
+									cart
 								</div>
-								<button className={`${style.btnDecrease} ${style.btnChange}`}>-</button>
+								<button
+									className={`${style.btnDecrease} ${style.btnChange}`}
+									onClick={() => decreaseCartQuantity(id)}
+								>
+									-
+								</button>
 							</div>
-							<button className={`${style.btnRemoveFromCart} ${style.btn}`}>
+							<button
+								className={`${style.btnRemoveFromCart} ${style.btn}`}
+								onClick={() => removeFromCart(id)}
+							>
 								Remove
 							</button>
 						</div>
