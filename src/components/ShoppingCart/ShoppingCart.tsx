@@ -3,7 +3,6 @@ import { useShoppingCart } from '../../context/ShoppingCartContext';
 import { formatCurrency } from '../../utilities/formatCurrency';
 import { CartItem } from '../CartItem/CartItem';
 import storeItems from '../../data/items.json';
-import style from './ShoppingCart.module.css';
 
 type ShoppingCartProps = {
 	isOpen: boolean;

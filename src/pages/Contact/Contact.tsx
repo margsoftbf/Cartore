@@ -1,6 +1,6 @@
-import style from './About.module.css';
+import style from './Contact.module.css';
 
-export function About() {
+export function Contact() {
 	return (
 		<div className={`${style.Container}`}>
 			<h1 className={`${style.Title}`}>About</h1>

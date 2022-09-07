@@ -34,9 +34,9 @@ export const Navbar = () => {
 					<NavLink
 						className={`${style.navLink}`}
 						style={navLinkStyles}
-						to='/about'
+						to='/contact'
 					>
-						About
+						Contact
 					</NavLink>
 				</div>
 				<div className='navCart'>

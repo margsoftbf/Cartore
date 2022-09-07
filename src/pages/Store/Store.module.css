@@ -23,6 +23,26 @@
 	background-color: #ce5e40;
 }
 
+.categoryBox {
+	display: flex;
+	justify-content: center;
+}
+
+.categoryBtn {
+	border: none;
+	color: white;
+	margin-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 10px;
+	margin: 0 1em;
+	padding: 0.2em 0.5em;
+	text-transform: uppercase;
+	background-color: #f5a089;
+}
+
 .storeBoxes {
 	display: flex;
 	flex-wrap: wrap;
