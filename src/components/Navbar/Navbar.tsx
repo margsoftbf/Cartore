@@ -6,7 +6,7 @@ import { useShoppingCart } from '../../context/ShoppingCartContext';
 export const Navbar = () => {
 	const { openCart, cartQuantity } = useShoppingCart();
 
-	const navLinkStyles = ({ isActive }) => {
+	const navLinkStyles = ({isActive}) => {
 		return {
 			color: isActive ? '#fff' : '#000',
 			backgroundColor: isActive ? '#ce5e40' : '',

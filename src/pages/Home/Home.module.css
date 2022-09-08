@@ -22,3 +22,115 @@
 	height: 3px;
 	background-color: #ce5e40;
 }
+
+.homePage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.leftSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 1em;
+}
+
+.title {
+	font-size: 2rem;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.title span:nth-child(1) {
+	color: #ce5e40;
+	font-weight: bold;
+}
+
+.title span:nth-child(2) {
+	font-weight: bold;
+}
+
+.headerDesc {
+	padding: 0.5em;
+	text-align: center;
+}
+
+.navLink {
+	display: flex;
+	align-items: center;
+	width: 70px;
+	text-align: left;
+	padding: 5px 10px;
+	position: relative;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+	background-color: rgb(102, 109, 207);
+	text-decoration: none;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 1px 1px 3px rgb(102, 109, 207);
+	outline: none;
+	cursor: pointer;
+	overflow: hidden;
+	transition: 0.4s;
+}
+
+.navLink:hover {
+	width: 130px;
+	color: #fff;
+	padding-right: 40px;
+}
+
+.navLinkArrow {
+	position: absolute;
+	top: 25%;
+	right: 5px;
+	transform: translateX(-50%);
+	transition: transform 0.4s;
+	opacity: 0;
+}
+
+.navLink:hover .navLinkArrow {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.logoImg {
+	margin-top: 10px;
+	display: flex;
+	width: 220px;
+}
+
+@media (min-width: 768px) {
+	.homePage {
+		flex-direction: row;
+	}
+
+	.leftSection {
+		width: 50%;
+	}
+	.rightSection {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+	}
+
+	.logoImg {
+		width: 250px;
+	}
+}
+@media (min-width: 992px) {
+	.storeBox {
+		max-width: 280px;
+	}
+
+	.storeBoxes {
+		justify-content: space-between;
+	}
+}

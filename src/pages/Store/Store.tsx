@@ -13,6 +13,13 @@ export function Store() {
 		setData(result);
 	};
 
+	const navLinkStyles = (isActive: any) => {
+		return {
+			color: isActive ? '#fff' : '#000',
+			backgroundColor: isActive ? '#ce5e40' : '',
+		};
+	};
+
 	return (
 		<>
 			<div className={`${style.storeContainer}`}>
