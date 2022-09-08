@@ -1,6 +1,6 @@
 # Cartore
 
-Cartore is a Shopping Cart create by using React and Typescript
+Cartore is a Shopping Cart create by React and Typescript. I was focus on work with React components, and typescript to works well. I wasn't focus on design look.
 
 ## Live preview
 
@@ -8,7 +8,7 @@ https://margsoftbf.github.io/Multitask-App/
 
 ## Screenshoot
 
-![App Screenshoot](https://raw.githubusercontent.com/margsoftbf/Multitask-App/main/public/screenshot/MultitaskApp-BMICalculator.jpg)
+![App Screenshoot](https://github.com/margsoftbf/Cartore/blob/main/public/imgs/screenshot.jpg?raw=true)
 
 ## Download and Installation
 
