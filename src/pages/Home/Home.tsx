@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { NavLink } from 'react-router-dom';
 import style from './Home.module.css';
+import logoHeader from '../../../public/imgs/header-logo.png';
 
 export function Home() {
 	return (
@@ -17,15 +18,15 @@ export function Home() {
 						flews, we created a new series
 					</p>
 					<NavLink className={`${style.navLink}`} to='/store'>
-						Store <FontAwesomeIcon className={`${style.navLinkArrow}`} icon={faArrowRight} />
+						Store{' '}
+						<FontAwesomeIcon
+							className={`${style.navLinkArrow}`}
+							icon={faArrowRight}
+						/>
 					</NavLink>
 				</div>
 				<div className={`${style.rightSection}`}>
-					<img
-						className={`${style.logoImg}`}
-						src='../../../public/imgs/header-logo.png'
-						alt='women'
-					/>
+					<img className={`${style.logoImg}`} src={logoHeader} alt='women' />
 				</div>
 			</div>
 		</div>
