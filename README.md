@@ -4,7 +4,7 @@ Cartore is a Shopping Cart create by React and Typescript. I was focus on work w
 
 ## Live preview
 
-https://margsoftbf.github.io/Multitask-App/
+https://cartore-margsoft.netlify.app/
 
 ## Screenshoot
 
@@ -13,7 +13,7 @@ https://margsoftbf.github.io/Multitask-App/
 ## Download and Installation
 
 ```bash
-  git clone https://github.com/margsoftbf/Multitask-App.git
+  git clone https://github.com/margsoftbf/Cartore.git
 ```
 
 ## Usage
